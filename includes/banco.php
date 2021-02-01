@@ -6,13 +6,8 @@ if ($bank->connect_errno) {
     die();
 }
 
-// $busca = $banco->query("select * from jogos");
-
-// if (!$busca) {
-//     echo "<h2>Deu erro! Número do erro é $banco->errno --> $banco->connect_error</h2>";
-// } else {
-//     while ($reg = $busca->fetch_object()) {
-//         print_r($reg);
-//     }
-// }
+$bank->query("SET NAME 'utf8'");
+$bank->query("SET character_set_connection=utf8");
+$bank->query("SET character_set_client=utf8");
+$bank->query("SET character_set_results=utf8");
 ?>
