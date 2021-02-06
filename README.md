@@ -21,3 +21,8 @@ git clone https://github.com/devandrev/projeto_php.git
 ```
 3. Instalar o PHP7 (https://windows.php.net/downloads/releases/php-7.4.14-Win32-vc15-x64.zip)
 4. Instalar o Laragon (https://sourceforge.net/projects/laragon/files/releases/4.0/laragon-full.exe)
+
+5. Mover a pasta project_games para a pasta do Laragon
+```
+    laragon\data\mysql
+```
